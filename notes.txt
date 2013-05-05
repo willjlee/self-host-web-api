@@ -1,0 +1,13 @@
+Self-Host a Web API
+
+http://www.asp.net/web-api/overview/hosting-aspnet-web-api/self-host-a-web-api
+
+----
+
+Add self-host package via the package manager.
+
+Can use the api stuff  in a console application (as done in this tutorial).
+
+Client side, it is nearly identical to the previous api client project.
+
+If using a package already installed by the package manager, find it and hit manage, then select the current project.
