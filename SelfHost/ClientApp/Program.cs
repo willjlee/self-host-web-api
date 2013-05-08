@@ -13,7 +13,7 @@ namespace ClientApp
 
         static void Main(string[] args)
         {
-            client.BaseAddress = new Uri("http://localhost:8080");
+            client.BaseAddress = new Uri("http://localhost:5555");
 
             ListAllProducts();
             ListProduct(1);

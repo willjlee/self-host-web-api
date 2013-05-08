@@ -12,7 +12,7 @@ namespace SelfHost
     {
         static void Main(string[] args)
         {
-            var config = new HttpSelfHostConfiguration("http://localhost:8080");
+            var config = new HttpSelfHostConfiguration("http://localhost:5555");
 
             config.Routes.MapHttpRoute(
                 "API Default", "api/{controller}/{id}",

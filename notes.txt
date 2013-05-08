@@ -1,6 +1,8 @@
 Self-Host a Web API
 
-http://www.asp.net/web-api/overview/hosting-aspnet-web-api/self-host-a-web-api
+tutorial: http://www.asp.net/web-api/overview/hosting-aspnet-web-api/self-host-a-web-api
+
+additional example at: http://code.msdn.microsoft.com/ASPNET-Web-API-Self-Host-30abca12/sourcecode?fileId=63519&pathId=1646995244
 
 ----
 
@@ -10,4 +12,8 @@ Can use the api stuff  in a console application (as done in this tutorial).
 
 Client side, it is nearly identical to the previous api client project.
 
-If using a package already installed by the package manager, find it and hit manage, then select the current project.
+If using a package already installed by the package manager and it isn't being recognized, find it in the manager and hit manage, then select the current project.
+
+--
+
+The server and client can be run in the same project, and even in the same file, as shown in the sample project.
